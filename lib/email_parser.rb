@@ -8,6 +8,7 @@ class EmailAddressParser
   count = 0
   @@email = []
   email_parser = []
+  
 attr_accessor :email
 
   def initialize(string)
@@ -22,7 +23,7 @@ attr_accessor :email
   end
 
 def self.parse
-  @@email.each do |email| @@email.split("," " ")
+  @@email.each do |email| @@email.split(","," ")
   email_parser << @@email.join
 end
 end
