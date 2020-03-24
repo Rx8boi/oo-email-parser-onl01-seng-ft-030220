@@ -24,8 +24,7 @@ attr_accessor :email
   @@email =  @@email.split(/[, ]/).uniq
   @@email.reject! {|element| element.empty?}
   @@email
-end
-end
+  end
 
 
 end
