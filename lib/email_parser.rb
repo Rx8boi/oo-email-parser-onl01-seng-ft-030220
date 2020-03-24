@@ -12,8 +12,7 @@ class EmailAddressParser
 attr_accessor :email
 
   def initialize(string)
-    @@email = @email
-    @@email << @email
+      @@email << @email
     count += 1
     
   end
