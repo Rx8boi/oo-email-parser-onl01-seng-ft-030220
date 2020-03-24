@@ -21,7 +21,7 @@ attr_accessor :email
   end
 
   def parse
-  @@email.each do |email| @@email.split(/[, ]/).uniq
+  @@email =  @@email.split(/[, ]/).uniq
   @@email.reject! {|element| element.empty?}
   @@email
 end
