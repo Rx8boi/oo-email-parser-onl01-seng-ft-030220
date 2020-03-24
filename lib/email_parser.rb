@@ -12,7 +12,7 @@ class EmailAddressParser
 attr_accessor :email
 
   def initialize(string)
-      @@email << @email
+      @@emails << string
     
   end
 
@@ -20,7 +20,7 @@ attr_accessor :email
     @email = email 
   end
 
-def self.parse
+  def parse
   @@email.each do |email| @@email.split(","," ")
   email_parser << @@email.join(","," ")
 end
