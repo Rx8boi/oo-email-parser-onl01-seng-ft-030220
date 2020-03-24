@@ -13,7 +13,6 @@ attr_accessor :email
 
   def initialize(string)
       @@email << @email
-    count+=1
     
   end
 
