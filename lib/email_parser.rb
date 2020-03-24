@@ -9,10 +9,10 @@ class EmailAddressParser
   @@email = []
   email_parser = []
   
-attr_accessor :email
+attr_accessor email
 
   def initialize(string)
-      @@email << @email
+      @@email << email
     
   end
 
