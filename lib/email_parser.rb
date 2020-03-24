@@ -22,7 +22,7 @@ attr_accessor :email
   end
 
 def self.parse
-  @@email.each do |email| @@email.split(",")
+  @@email.each do |email| @@email.split("," " ")
   email_parser << @@email.join
 end
 end
