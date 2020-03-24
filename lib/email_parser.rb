@@ -16,10 +16,6 @@ attr_accessor :email
     
   end
 
-  def email
-    @email = email 
-  end
-
   def parse
   email_parser =  @@email.split(/[, ]/).uniq
   email_parser.reject! {|element| element.empty?}
